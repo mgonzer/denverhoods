@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <br>
+      <h2></h2>
+      <div class='collection'>
+        <script id='restaurants-template' type='text/x-handlebars-template'>
+
+          {{#each restaurants}}
+
+              <a href="" class='collection-item'style="padding:2em">{{name}}</a>
+              <p style="padding-left:2em">Rating: {{rating}}</p>
+              <br>
+              <br>
+          {{/each}}
+        </script>
+      </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="one.js" type="text/javascript"></script>
+  </body>
+</html>
